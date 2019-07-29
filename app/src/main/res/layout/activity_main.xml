@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="8dp"
+                app:cardElevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingTop="10dp">
+
+                    <TextView
+                        style="@style/textTitle"
+                        android:text="@string/kich_hoat" />
+
+                    <LinearLayout
+                        android:id="@+id/linear_phone"
+                        style="@style/itemLinear">
+
+                        <ImageView
+                            style="@style/imageItemLinear"
+                            android:src="@drawable/phone" />
+
+                        <TextView
+                            android:id="@+id/test"
+                            style="@style/textItemLinear"
+                            android:text="@string/cuoc_goi_den" />
+
+                        <Switch
+                            android:id="@+id/switch_phone"
+                            style="@style/switchItemLinear" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linear_message"
+                        style="@style/itemLinear">
+
+                        <ImageView
+                            style="@style/imageItemLinear"
+                            android:src="@drawable/mess" />
+
+                        <TextView
+                            style="@style/textItemLinear"
+                            android:text="@string/tin_nhan_den" />
+
+                        <Switch
+                            android:id="@+id/switch_message"
+                            style="@style/switchItemLinear" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linear_notify"
+                        style="@style/itemLinear">
+
+                        <ImageView
+                            style="@style/imageItemLinear"
+                            android:src="@drawable/noti" />
+
+                        <TextView
+                            style="@style/textItemLinear"
+                            android:text="@string/thong_bao_den" />
+
+                        <Switch
+                            android:id="@+id/switch_notifi"
+                            style="@style/switchItemLinear" />
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="8dp"
+                app:cardElevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        style="@style/textTitle"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:text="@string/cau_hinh" />
+
+                    <LinearLayout
+                        android:id="@+id/linear_app"
+                        style="@style/itemLinear">
+
+                        <ImageView
+                            style="@style/imageItemLinear"
+                            android:src="@drawable/app" />
+
+                        <TextView
+                            style="@style/textItemLinear"
+                            android:layout_weight="6"
+                            android:text="@string/chon_ung_dung" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linear_speed"
+                        style="@style/itemLinear">
+
+                        <ImageView
+                            style="@style/imageItemLinear"
+                            android:src="@drawable/speed" />
+
+                        <TextView
+                            style="@style/textItemLinear"
+                            android:layout_weight="6"
+                            android:text="@string/toc_do" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linear_icon"
+                        style="@style/itemLinear">
+
+                        <ImageView
+                            style="@style/imageItemLinear"
+                            android:src="@drawable/choose_icon" />
+
+                        <TextView
+                            style="@style/textItemLinear"
+                            android:layout_weight="6"
+                            android:text="@string/chon_icon" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="8dp"
+                app:cardElevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        style="@style/textTitle"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:text="@string/tuy_chon" />
+
+                    <LinearLayout
+                        android:id="@+id/linear_flash"
+                        style="@style/itemLinear">
+
+                        <ImageView
+                            style="@style/imageItemLinear"
+                            android:src="@drawable/flash" />
+
+                        <TextView
+                            style="@style/textItemLinear"
+                            android:text="@string/nhay_den_thong_bao" />
+
+                        <Switch
+                            android:id="@+id/switch_flash"
+                            style="@style/switchItemLinear" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linear_window"
+                        style="@style/itemLinear">
+
+                        <ImageView
+                            style="@style/imageItemLinear"
+                            android:src="@drawable/ghost" />
+
+                        <TextView
+                            style="@style/textItemLinear"
+                            android:text="@string/hien_thi_gif" />
+
+                        <Switch
+                            android:id="@+id/switch_window"
+                            style="@style/switchItemLinear" />
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

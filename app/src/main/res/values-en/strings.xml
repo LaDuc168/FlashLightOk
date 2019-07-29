@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FlashLight</string>
+    <string name="kich_hoat">Active</string>
+    <string name="cuoc_goi_den">Incomming Call</string>
+    <string name="tin_nhan_den">Incomming Message</string>
+    <string name="thong_bao_den">Incomming Notification</string>
+    <string name="cau_hinh">Configure</string>
+    <string name="tuy_chon">Options</string>
+    <string name="toc_do">Configure Speed</string>
+    <string name="chon_ung_dung">Choose application</string>
+    <string name="chon_icon">Choose icon</string>
+    <string name="huy">Cancel</string>
+    <string name="ok">Ok</string>
+    <string name="thoi_gian_bat">On Time</string>
+    <string name="thoi_gian_tat">Off Time</string>
+    <string name="thoi_gian_chay">Run Time</string>
+    <string name="thu">Try</string>
+    <string name="luu">Save</string>
+    <string name="flash_dang_hoat_dong">Flash is running</string>
+    <string name="nhay_den_thong_bao">Active flash when have notification</string>
+    <string name="hien_thi_gif">Active gif when have notification</string>
+</resources>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Nháy đèn</string>
+    <string name="kich_hoat">Kích hoạt</string>
+    <string name="cuoc_goi_den">Cuộc gọi đến</string>
+    <string name="tin_nhan_den">Tin nhắn đến</string>
+    <string name="thong_bao_den">Thông báo đến</string>
+    <string name="cau_hinh">Cấu hình</string>
+    <string name="tuy_chon">Tùy chọn</string>
+    <string name="toc_do">Chỉnh tốc độ</string>
+    <string name="chon_ung_dung">Chọn ứng dụng</string>
+    <string name="chon_icon">Chọn icon</string>
+    <string name="huy">Hủy</string>
+    <string name="ok">Ok</string>
+    <string name="thoi_gian_bat">Thời gian bật</string>
+    <string name="thoi_gian_tat">Thời gian tắt</string>
+    <string name="thoi_gian_chay">Thời gian chạy</string>
+    <string name="thu">Thử</string>
+    <string name="luu">Lưu</string>
+    <string name="flash_dang_hoat_dong">Flash đang hoạt động!</string>
+    <string name="nhay_den_thong_bao">Nháy đèn khi có thông báo</string>
+    <string name="hien_thi_gif">Hiển thị gif khi có thông báo</string>
+</resources>
